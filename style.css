@@ -1,0 +1,41 @@
+:root {
+  --cor-fundo: linear-gradient(to bottom, #000000, #0c3f46);
+  --cor-principal: #000000 ;
+  --cor-secundaria: #000000;
+  --cor-destaque: #02d9c0;
+  --cor-texto: #ffffff;
+}
+body {
+  background-image: url("img2/download4.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: scroll;
+  
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.caixa-principal{
+  background-image: var(--cor-fundo);
+  border: 3px solid white;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+ color: var(--cor-destaque);
+}
+button {
+    background-color: var(--cor-principal);
+    color: var(--cor-destaque);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-secundaria);
+}
